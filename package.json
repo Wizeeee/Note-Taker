@@ -1,0 +1,24 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "An application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wizeeee/Note-Taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wizeeee/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/Wizeeee/Note-Taker#readme"
+}
