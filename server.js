@@ -3,6 +3,8 @@ const express = require("express");
 const PORT = process.env.PORT || 4141;
 const app = express();
 
+const htmlRoutes = require("./routes/html");
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
